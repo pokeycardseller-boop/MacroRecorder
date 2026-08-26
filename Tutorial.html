@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MacroRecorder</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0b0b0b;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 90px 20px;
+            background: #111;
+        }
+
+        h1 {
+            font-size: 64px;
+            margin: 0;
+        }
+
+        .subtitle {
+            color: #aaa;
+            font-size: 20px;
+            margin: 15px 0 30px;
+        }
+
+        .download {
+            display: inline-block;
+            padding: 16px 32px;
+            background: white;
+            color: black;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .download:hover {
+            transform: scale(1.05);
+        }
+
+        .section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 36px;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 900px;
+            margin: 30px auto;
+            background: #000;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        video {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .feature {
+            width: 200px;
+            padding: 25px;
+            background: #171717;
+            border-radius: 15px;
+        }
+
+        .feature-icon {
+            font-size: 35px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            background: #080808;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>MacroRecorder</h1>
+
+    <p class="subtitle">
+        A simple and easy-to-use Windows macro recorder.
+    </p>
+
+    <a class="download"
+       href="https://github.com/pokeycardseller-boop/MacroRecorder/releases/tag/v1.0.0"
+       target="_blank">
+        ⬇ Download MacroRecorder
+    </a>
+
+</header>
+
+
+<section class="section">
+
+    <h2>🎥 See It In Action</h2>
+
+    <div class="video-container">
+
+        <video controls preload="metadata">
+
+            <source
+                src="ScreenRec_260826_38279.mp4"
+                type="video/mp4">
+
+            Your browser doesn't support HTML video.
+
+        </video>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <h2>Features</h2>
+
+    <div class="features">
+
+        <div class="feature">
+            <div class="feature-icon">🖱️</div>
+            <h3>Mouse Recording</h3>
+            <p>Record mouse movement and clicks.</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">⌨️</div>
+            <h3>Keyboard Recording</h3>
+            <p>Record keyboard actions.</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">▶️</div>
+            <h3>Playback</h3>
+            <p>Play your recorded macro.</p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">⚡</div>
+            <h3>Simple</h3>
+            <p>Easy interface with no complicated setup.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    MacroRecorder © 2026
+
+</footer>
+
+</body>
+</html>
